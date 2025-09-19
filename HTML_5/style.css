@@ -1,18 +1,27 @@
 body{
     text-align: center;
-    background-color: lavender;
-}
-header{
-    background-color: rgb(253, 253, 253);
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    font-size: 30px;
 }
 
-.dratini{
-    width: 300px;
-    height: auto;
+.bg-dratini {
+    background-color: rgba(13, 129, 207, 0.342);
+}
+
+.bg-dragonair {
+    background-color: rgba(79, 196, 235, 0.521);
+}
+
+.bg-dragonite {
+    background-color: rgba(199, 110, 33, 0.253);
+}
+header{
+    background-color: rgb(221, 114, 14);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 20px;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(245, 243, 243, 0.3);
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 50px;
 }
