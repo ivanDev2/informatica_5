@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(148, 83, 31);
+}
+
+
+header{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;  
+    text-align: center;
+}
+
+input[type=submit]{
+    width: 15%;
+    background-color: rgb(223, 129, 7);
+    color: black;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}  
+
+img {
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 10px;
+    
+}
+.contenitore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; 
+}
+
+.immagine-centrata {
+  max-width: 100%;
+  height: auto;
+}
