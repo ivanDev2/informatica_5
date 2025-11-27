@@ -1,3 +1,5 @@
+<-- calcolatrice per faer somma, moltiplicazione, divisione e sottrazione tra due numeri -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +12,15 @@
     <form action="operazioni.php" method="post">
         <input type="number" id="null" name="num1"><br><br>
         <input type="number" id="null" name="num2"><br><br>
-        <input type="submit" value="Calcola Somma">
+        <label for="operazioni"> 
+            <select name="operazioni" id="operazioni">
+                <option value="somma">somma</option>
+                <option value="sottrazione">sottrazione</option>
+                <option value="moltiplicazione">moltiplicazione</option>
+                <option value="divisione">divisione</option>
+            </select>
+            <input type="submit" value="calcola">
+        </label>
     </form>
     
 </body>
