@@ -1,5 +1,16 @@
 //calcolatrice per faer somma, moltiplicazione, divisione e sottrazione tra due numeri
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>risultato</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+</body>
+</html>
 <?php
 
     $num1 = $_POST['num1'];
