@@ -2,31 +2,32 @@
 <!--script per chiedere all'utente nome, cognome, data di nascita ed email da inserire nel database-->
 
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connessione</title>
+    <title>Inserisci Studente</title>
 </head>
-
 <body>
-    <form action="get" , action="conn.php">
+    <div class="container">
+        <h2>Inserisci Studente</h2>
 
-        <label> nome</label>
-        <input type="text" name="nome"><br>
+        <form action="insert.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
 
-        <label> cognome</label>
-        <input type="text" name="cognome"><br>
+            <label for="cognome">Cognome:</label>
+            <input type="text" id="cognome" name="cognome" required>
 
-        <label>data di nascita</label>
-        <input type="date" name="data_nascita"><br>
+            <label for="email">email:</label>
+            <input type="text" id="email" name="email" required>
 
-        <label>email</label>
-        <input type="email" name="email"><br>
+            label for="data_nascita">Data di Nascita:</label>
+            <input type="date" id="data_nascita" name="data_nascita" required>
 
-        <input type="submit" value="invia">
-    </form>
+
+            <input type="submit" value="Inserisci">
+        </form>
+
+        <a href="inserisci_stud.html">Torna alla home</a>
+    </div>
 </body>
-
 </html>
